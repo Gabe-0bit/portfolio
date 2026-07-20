@@ -387,15 +387,37 @@ margin-right:0;
     margin:0;
 }    
     
-.projetos{
+.projetos {
     flex-direction: column;
     height: auto;
-    padding:20px;
+    width: 95%;
+    margin: 30px auto;
+    padding: 20px;
 }
 
-.project-image{
-    width:100%;
-    height:auto;
+.proj {
+    width: 100%;
+    padding: 0;
+    height: auto;
+}
+
+.proj-links {
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+}
+
+.proj {
+    align-items: center;
+    text-align: center;
+}
+
+.techs {
+    justify-content: center;
 }
     
 }
