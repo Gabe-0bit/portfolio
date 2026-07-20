@@ -393,7 +393,8 @@ margin-right:0;
     width:90%;
     max-width:420px;
     margin: 30px auto;
-    padding: 20px;
+    padding:16px;
+    gap:20px;
 }
 
 .projetos > div:first-child {
@@ -406,6 +407,10 @@ margin-right:0;
     height: auto;
 }
 
+.titulo{
+    font-size:1.8rem;
+}    
+
 .proj p{
     font-size:1rem;
 }
@@ -417,10 +422,11 @@ margin-right:0;
 }
 
 .project-image{
-    width:100%;
-    max-width:100%;
-    height:auto;
-    display:block;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .proj {
