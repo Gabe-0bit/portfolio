@@ -390,10 +390,15 @@ margin-right:0;
 .projetos {
     flex-direction: column;
     height: auto;
-    width: 95%;
+    width:90%;
+    max-width:420px;
     margin: 30px auto;
     padding: 20px;
 }
+
+.projetos > div:first-child {
+    width: 100%;
+}   
 
 .proj {
     width: 100%;
@@ -401,14 +406,21 @@ margin-right:0;
     height: auto;
 }
 
+.proj p{
+    font-size:1rem;
+}
+
 .proj-links {
     flex-wrap: wrap;
     gap: 15px;
+    justify-content:center;
 }
 
-.project-image {
-    width: 100%;
-    height: auto;
+.project-image{
+    width:100%;
+    max-width:100%;
+    height:auto;
+    display:block;
 }
 
 .proj {
