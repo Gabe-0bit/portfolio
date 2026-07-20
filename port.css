@@ -411,9 +411,16 @@ img{
 }
 
 .titulo{
-    font-size:1.8rem;
+    font-size: 1.5rem;
+    text-align: center;
 }    
 
+.proj h3,
+.proj p {
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+    
 .proj p{
     font-size:1rem;
 }
