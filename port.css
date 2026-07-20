@@ -1,3 +1,7 @@
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     background: radial-gradient(ellipse ,#0B1020, #111827, #1E293B);
     font-family: 'Inter', sans-serif; 
